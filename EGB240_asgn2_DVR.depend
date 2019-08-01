@@ -1,0 +1,141 @@
+# depslib dependency file v1.0
+1494937967 source:c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\fuse.c
+	<avr/io.h>
+
+1460167316 source:c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\adc.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"buffer.h"
+
+1460194306 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\buffer.h
+
+1460194312 source:c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\buffer.c
+	<avr/io.h>
+
+1441376930 source:c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\ff.c
+	"ff.h"
+	"diskio.h"
+	<stdarg.h>
+
+1439043084 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\ff.h
+	"integer.h"
+	"ffconf.h"
+
+1441421474 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\integer.h
+	<windows.h>
+	<tchar.h>
+
+1453441208 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\ffconf.h
+
+1441421474 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\diskio.h
+	"integer.h"
+
+1453708568 source:c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\mmc_avr.c
+	<avr/io.h>
+	"diskio.h"
+	<stdio.h>
+
+1453276132 source:c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\usb_serial\usb_serial.c
+	"usb_serial.h"
+
+1296783836 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\usb_serial\usb_serial.h
+	<stdint.h>
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+
+1495613524 source:c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	"serial.h"
+	"timer.h"
+	"wave.h"
+	"buffer.h"
+	"adc.h"
+
+1460163124 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\serial.h
+
+1460165674 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\timer.h
+
+1460276020 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\wave.h
+
+1460273550 c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\adc.h
+
+1460167542 source:c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\serial.c
+	<stdio.h>
+	"lib/usb_serial/usb_serial.h"
+
+1460280042 source:c:\users\duval longa\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\timer.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"lib/fatfs/diskio.h"
+	"timer.h"
+
+1460167316 source:c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\adc.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"buffer.h"
+
+1460194306 c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\buffer.h
+
+1460194312 source:c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\buffer.c
+	<avr/io.h>
+
+1494937967 source:c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\fuse.c
+	<avr/io.h>
+
+1441376930 source:c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\ff.c
+	"ff.h"
+	"diskio.h"
+	<stdarg.h>
+
+1439043084 c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\ff.h
+	"integer.h"
+	"ffconf.h"
+
+1441421474 c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\integer.h
+	<windows.h>
+	<tchar.h>
+
+1453441208 c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\ffconf.h
+
+1441421474 c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\diskio.h
+	"integer.h"
+
+1453708568 source:c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\fatfs\mmc_avr.c
+	<avr/io.h>
+	"diskio.h"
+	<stdio.h>
+
+1453276132 source:c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\usb_serial\usb_serial.c
+	"usb_serial.h"
+
+1296783836 c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\lib\usb_serial\usb_serial.h
+	<stdint.h>
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+
+1460167542 source:c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\serial.c
+	<stdio.h>
+	"lib/usb_serial/usb_serial.h"
+
+1460280042 source:c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\timer.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"lib/fatfs/diskio.h"
+	"timer.h"
+
+1460165674 c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\timer.h
+
+1460276736 source:c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\wave.c
+	<avr/io.h>
+	<string.h>
+	<stdio.h>
+	"lib/fatfs/ff.h"
+	"lib/fatfs/diskio.h"
+	"wave.h"
+
+1460276020 c:\users\admin\documents\uni\egb240 - electronic design\assignment 2\egb240_asgn2_dvr\wave.h
+

@@ -1,0 +1,870 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              obj\Debug\lib\fatfs\ff.o (__mulsi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              obj\Debug\lib\fatfs\mmc_avr.o (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              obj\Debug\lib\fatfs\ff.o (__udivmodsi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              obj\Debug\buffer.o (__do_copy_data)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              obj\Debug\buffer.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+                              obj\Debug\serial.o (__iob)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+                              obj\Debug\wave.o (printf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+                              obj\Debug\main.o (puts)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o) (vfprintf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o) (__prologue_saves__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+fs                  0x22e             obj\Debug\wave.o
+callbackPageFull    0x2               obj\Debug\buffer.o
+pb2                 0x1               obj\Debug\main.o
+pb0                 0x1               obj\Debug\main.o
+file                0x20              obj\Debug\wave.o
+callbackPageEmpty   0x2               obj\Debug\buffer.o
+pHead               0x2               obj\Debug\buffer.o
+samples             0x400             obj\Debug\buffer.o
+waveHeader          0x2c              obj\Debug\wave.o
+pb1                 0x1               obj\Debug\main.o
+__iob               0x6               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+pTail               0x2               obj\Debug\buffer.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+LOAD obj\Debug\adc.o
+LOAD obj\Debug\buffer.o
+LOAD obj\Debug\fuse.o
+LOAD obj\Debug\lib\fatfs\ff.o
+LOAD obj\Debug\lib\fatfs\mmc_avr.o
+LOAD obj\Debug\lib\usb_serial\usb_serial.o
+LOAD obj\Debug\main.o
+LOAD obj\Debug\serial.o
+LOAD obj\Debug\timer.o
+LOAD obj\Debug\wave.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x5516
+ *(.vectors)
+ .vectors       0x00000000       0xac c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x000000ac       0x82 obj\Debug\lib\usb_serial\usb_serial.o
+ *(.progmem*)
+ .progmem.data  0x0000012e       0xc9 obj\Debug\lib\usb_serial\usb_serial.o
+                0x000001f8                . = ALIGN (0x2)
+ *fill*         0x000001f7        0x1 00
+                0x000001f8                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000001f8        0x0 linker stubs
+ *(.trampolines*)
+                0x000001f8                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000001f8                __ctors_start = .
+ *(.ctors)
+                0x000001f8                __ctors_end = .
+                0x000001f8                __dtors_start = .
+ *(.dtors)
+                0x000001f8                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000001f8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+                0x000001f8                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000001f8        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000204       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000204                __do_copy_data
+ .init4         0x0000021a       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x0000021a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000022a        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x00000232        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+                0x00000232                __vector_22
+                0x00000232                __vector_28
+                0x00000232                __vector_1
+                0x00000232                __vector_32
+                0x00000232                __vector_34
+                0x00000232                __vector_24
+                0x00000232                __vector_12
+                0x00000232                __bad_interrupt
+                0x00000232                __vector_6
+                0x00000232                __vector_31
+                0x00000232                __vector_39
+                0x00000232                __vector_3
+                0x00000232                __vector_23
+                0x00000232                __vector_30
+                0x00000232                __vector_25
+                0x00000232                __vector_13
+                0x00000232                __vector_17
+                0x00000232                __vector_19
+                0x00000232                __vector_7
+                0x00000232                __vector_41
+                0x00000232                __vector_27
+                0x00000232                __vector_5
+                0x00000232                __vector_33
+                0x00000232                __vector_37
+                0x00000232                __vector_4
+                0x00000232                __vector_9
+                0x00000232                __vector_2
+                0x00000232                __vector_15
+                0x00000232                __vector_36
+                0x00000232                __vector_40
+                0x00000232                __vector_8
+                0x00000232                __vector_26
+                0x00000232                __vector_14
+                0x00000232                __vector_16
+                0x00000232                __vector_18
+                0x00000232                __vector_20
+                0x00000232                __vector_42
+ .text          0x00000236       0x68 obj\Debug\adc.o
+                0x0000024c                adc_stop
+                0x00000244                adc_start
+                0x00000236                adc_init
+                0x00000252                __vector_29
+ .text          0x0000029e      0x16e obj\Debug\buffer.o
+                0x0000029e                buffer_init
+                0x00000338                buffer_dequeue
+                0x000002e2                buffer_queue
+                0x00000388                buffer_readPage
+                0x000002c8                buffer_reset
+                0x000003ca                buffer_writePage
+ .text          0x0000040c        0x0 obj\Debug\fuse.o
+ .text          0x0000040c     0x2d64 obj\Debug\lib\fatfs\ff.o
+                0x000015fc                f_gets
+                0x0000094a                get_fat
+                0x00001e96                f_printf
+                0x00002310                f_putc
+                0x00002270                f_puts
+                0x000024fe                f_close
+                0x0000129c                f_read
+                0x0000238c                f_sync
+                0x000030dc                f_mount
+                0x00000752                put_fat
+                0x00000cc4                f_lseek
+                0x00000464                clust2sect
+                0x000019b4                f_write
+                0x00002a68                f_open
+ .text          0x00003170      0x93a obj\Debug\lib\fatfs\mmc_avr.o
+                0x000033da                disk_initialize
+                0x00003580                disk_status
+                0x0000373c                disk_ioctl
+                0x00003a82                disk_timerproc
+                0x00003644                disk_write
+                0x0000358e                disk_read
+ .text          0x00003aaa      0x7e0 obj\Debug\lib\usb_serial\usb_serial.o
+                0x00003b2c                usb_serial_available
+                0x00003aaa                usb_init
+                0x00003ee6                usb_serial_set_control
+                0x00003ae2                usb_serial_getchar
+                0x00003eda                usb_serial_get_numbits
+                0x00003fb4                __vector_11
+                0x00003ebc                usb_serial_get_baud
+                0x00003b62                usb_serial_flush_input
+                0x00003b88                usb_serial_putchar
+                0x00003e9c                usb_serial_flush_output
+                0x00003ee0                usb_serial_get_control
+                0x00003c4c                usb_serial_write
+                0x00003adc                usb_configured
+                0x00003f3e                __vector_10
+                0x00003ece                usb_serial_get_stopbits
+                0x00003ed4                usb_serial_get_paritytype
+                0x00003c0c                usb_serial_putchar_nowait
+ .text          0x0000428a      0x468 obj\Debug\main.o
+                0x000043da                __vector_38
+                0x0000429c                button_init
+                0x000044a8                dvr_record
+                0x00004434                dvr_playback
+                0x00004382                __vector_35
+                0x000042e8                pageEmpty
+                0x000042b0                pwm_init
+                0x00004290                clock_init
+                0x000042d6                db_init
+                0x00004502                init
+                0x0000454a                main
+                0x000044ca                pageFull
+                0x0000428a                pll_init
+ .text          0x000046f2       0x3a obj\Debug\serial.o
+                0x000046f2                serial_available
+                0x000046f8                serial_ready
+                0x000046fe                serial_init
+ .text          0x0000472c       0xa2 obj\Debug\timer.o
+                0x0000472c                timer_init
+                0x0000473e                __vector_21
+ .text          0x000047ce      0x69e obj\Debug\wave.o
+                0x00004bea                wave_open
+                0x000047ce                set_char_array
+                0x00004a88                wave_write
+                0x00004ca4                finalise_wave_header
+                0x00004e2c                wave_close
+                0x0000492e                wave_read
+                0x00004c6e                wave_init
+                0x00004c24                wave_create
+                0x00004b5a                write_wave_header
+                0x000049d0                read_wave_header
+                0x000047ee                initialise_header
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00004e6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x00004e6c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00004e6c       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00004e6c                __mulsi3
+ .text.libgcc   0x00004eaa       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00004eaa                __udivmodhi4
+ .text.libgcc   0x00004ed2       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00004ed2                __udivmodsi4
+ .text.libgcc   0x00004f16        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00004f16        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00004f16        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00004f16       0x2a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+                0x00004f16                printf
+ .text.avr-libc
+                0x00004f40       0x6a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+                0x00004f40                puts
+ .text.avr-libc
+                0x00004faa      0x3ba c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x00004faa                vfprintf
+ .text.avr-libc
+                0x00005364       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00005364                strnlen_P
+ .text.avr-libc
+                0x0000537a       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x0000537a                strnlen
+ .text.avr-libc
+                0x00005390       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00005390                fputc
+ .text.avr-libc
+                0x000053e8       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x000053e8                __ultoa_invert
+ .text.libgcc   0x000054a4       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x000054a4                __prologue_saves__
+ .text.libgcc   0x000054dc       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x000054dc                __epilogue_restores__
+                0x00005512                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00005512        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00005512                exit
+                0x00005512                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00005512        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00005516                _etext = .
+
+.data           0x00800100      0x1f0 load address 0x00005516
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+ .data          0x00800100        0x0 obj\Debug\adc.o
+ .data          0x00800100        0x6 obj\Debug\buffer.o
+                0x00800102                pPage1
+                0x00800100                pPage0
+                0x00800104                pEnd
+ .data          0x00800106        0x0 obj\Debug\fuse.o
+ .data          0x00800106        0xf obj\Debug\lib\fatfs\ff.o
+ .data          0x00800115        0x1 obj\Debug\lib\fatfs\mmc_avr.o
+ .data          0x00800116        0x7 obj\Debug\lib\usb_serial\usb_serial.o
+ .data          0x0080011d       0x5a obj\Debug\main.o
+                0x00800176                release
+ .data          0x00800177        0xe obj\Debug\serial.o
+ .data          0x00800185        0x3 obj\Debug\timer.o
+                0x00800186                timer_led
+                0x00800185                timer_fatfs
+ .data          0x00800188      0x168 obj\Debug\wave.o
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008002f0                . = ALIGN (0x2)
+                0x008002f0                _edata = .
+                0x008002f0                PROVIDE (__data_end, .)
+
+.bss            0x008002f0      0x6a9
+                0x008002f0                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+ .bss           0x008002f0        0x0 obj\Debug\adc.o
+ .bss           0x008002f0        0x0 obj\Debug\buffer.o
+ .bss           0x008002f0        0x0 obj\Debug\fuse.o
+ .bss           0x008002f0        0x6 obj\Debug\lib\fatfs\ff.o
+ .bss           0x008002f6        0x3 obj\Debug\lib\fatfs\mmc_avr.o
+ .bss           0x008002f9        0x4 obj\Debug\lib\usb_serial\usb_serial.o
+ .bss           0x008002fd        0xc obj\Debug\main.o
+                0x008002fd                pageCount
+                0x008002ff                newPage
+                0x00800308                stable
+                0x00800306                s_final
+                0x00800302                s
+                0x00800301                stop
+ .bss           0x00800309        0x0 obj\Debug\serial.o
+ .bss           0x00800309        0x0 obj\Debug\timer.o
+ .bss           0x00800309        0x5 obj\Debug\wave.o
+                0x00800309                sampleCount
+                0x0080030d                finaliseHeader
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x0080030e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080030e      0x408 obj\Debug\buffer.o
+                0x0080030e                callbackPageFull
+                0x00800310                callbackPageEmpty
+                0x00800312                pHead
+                0x00800314                samples
+                0x00800714                pTail
+ COMMON         0x00800716        0x3 obj\Debug\main.o
+                0x00800716                pb2
+                0x00800717                pb0
+                0x00800718                pb1
+ COMMON         0x00800719      0x27a obj\Debug\wave.o
+                0x00800719                fs
+                0x00800947                file
+                0x00800967                waveHeader
+ COMMON         0x00800993        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+                0x00800993                __iob
+                0x00800999                PROVIDE (__bss_end, .)
+                0x00005516                __data_load_start = LOADADDR (.data)
+                0x00005706                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800999        0x0
+                0x00800999                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800999                PROVIDE (__noinit_end, .)
+                0x00800999                _end = .
+                0x00800999                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse           0x00820000        0x3
+ *(.fuse)
+ .fuse          0x00820000        0x3 obj\Debug\fuse.o
+                0x00820000                __fuse
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(bin\Debug\EGB240_asgn2_DVR.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+__bad_interrupt                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__bss_end                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__data_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_start                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__do_clear_bss                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+                                                  obj\Debug\wave.o
+                                                  obj\Debug\main.o
+                                                  obj\Debug\lib\usb_serial\usb_serial.o
+                                                  obj\Debug\lib\fatfs\mmc_avr.o
+                                                  obj\Debug\lib\fatfs\ff.o
+                                                  obj\Debug\buffer.o
+__do_copy_data                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                                                  obj\Debug\wave.o
+                                                  obj\Debug\timer.o
+                                                  obj\Debug\serial.o
+                                                  obj\Debug\main.o
+                                                  obj\Debug\lib\usb_serial\usb_serial.o
+                                                  obj\Debug\lib\fatfs\mmc_avr.o
+                                                  obj\Debug\lib\fatfs\ff.o
+                                                  obj\Debug\buffer.o
+__epilogue_restores__                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+__fuse                                            obj\Debug\fuse.o
+__heap_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__init                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__iob                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+                                                  obj\Debug\serial.o
+__mulsi3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                                                  obj\Debug\wave.o
+                                                  obj\Debug\lib\fatfs\ff.o
+__prologue_saves__                                c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+__stack                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__udivmodhi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                                                  obj\Debug\lib\fatfs\mmc_avr.o
+__udivmodsi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                                                  obj\Debug\lib\fatfs\ff.o
+__ultoa_invert                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+__vector_1                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_10                                       obj\Debug\lib\usb_serial\usb_serial.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_11                                       obj\Debug\lib\usb_serial\usb_serial.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_12                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_13                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_14                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_15                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_16                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_17                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_18                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_19                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_2                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_20                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_21                                       obj\Debug\timer.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_22                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_23                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_24                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_25                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_26                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_27                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_28                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_29                                       obj\Debug\adc.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_3                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_30                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_31                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_32                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_33                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_34                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_35                                       obj\Debug\main.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_36                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_37                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_38                                       obj\Debug\main.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_39                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_4                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_40                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_41                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_42                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_5                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_6                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_7                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_8                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_9                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_default                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vectors                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+_exit                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+adc_init                                          obj\Debug\adc.o
+                                                  obj\Debug\main.o
+adc_start                                         obj\Debug\adc.o
+                                                  obj\Debug\main.o
+adc_stop                                          obj\Debug\adc.o
+                                                  obj\Debug\main.o
+buffer_dequeue                                    obj\Debug\buffer.o
+                                                  obj\Debug\main.o
+buffer_init                                       obj\Debug\buffer.o
+                                                  obj\Debug\main.o
+buffer_queue                                      obj\Debug\buffer.o
+                                                  obj\Debug\adc.o
+buffer_readPage                                   obj\Debug\buffer.o
+                                                  obj\Debug\main.o
+buffer_reset                                      obj\Debug\buffer.o
+                                                  obj\Debug\main.o
+buffer_writePage                                  obj\Debug\buffer.o
+                                                  obj\Debug\main.o
+button_init                                       obj\Debug\main.o
+callbackPageEmpty                                 obj\Debug\buffer.o
+callbackPageFull                                  obj\Debug\buffer.o
+clock_init                                        obj\Debug\main.o
+clust2sect                                        obj\Debug\lib\fatfs\ff.o
+db_init                                           obj\Debug\main.o
+disk_initialize                                   obj\Debug\lib\fatfs\mmc_avr.o
+                                                  obj\Debug\lib\fatfs\ff.o
+disk_ioctl                                        obj\Debug\lib\fatfs\mmc_avr.o
+                                                  obj\Debug\lib\fatfs\ff.o
+disk_read                                         obj\Debug\lib\fatfs\mmc_avr.o
+                                                  obj\Debug\lib\fatfs\ff.o
+disk_status                                       obj\Debug\lib\fatfs\mmc_avr.o
+                                                  obj\Debug\lib\fatfs\ff.o
+disk_timerproc                                    obj\Debug\lib\fatfs\mmc_avr.o
+                                                  obj\Debug\timer.o
+disk_write                                        obj\Debug\lib\fatfs\mmc_avr.o
+                                                  obj\Debug\lib\fatfs\ff.o
+dvr_playback                                      obj\Debug\main.o
+dvr_record                                        obj\Debug\main.o
+exit                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+f_close                                           obj\Debug\lib\fatfs\ff.o
+                                                  obj\Debug\wave.o
+f_gets                                            obj\Debug\lib\fatfs\ff.o
+f_lseek                                           obj\Debug\lib\fatfs\ff.o
+                                                  obj\Debug\wave.o
+f_mount                                           obj\Debug\lib\fatfs\ff.o
+                                                  obj\Debug\wave.o
+f_open                                            obj\Debug\lib\fatfs\ff.o
+                                                  obj\Debug\wave.o
+f_printf                                          obj\Debug\lib\fatfs\ff.o
+f_putc                                            obj\Debug\lib\fatfs\ff.o
+f_puts                                            obj\Debug\lib\fatfs\ff.o
+f_read                                            obj\Debug\lib\fatfs\ff.o
+                                                  obj\Debug\wave.o
+f_sync                                            obj\Debug\lib\fatfs\ff.o
+f_write                                           obj\Debug\lib\fatfs\ff.o
+                                                  obj\Debug\wave.o
+file                                              obj\Debug\wave.o
+finaliseHeader                                    obj\Debug\wave.o
+finalise_wave_header                              obj\Debug\wave.o
+fputc                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+fs                                                obj\Debug\wave.o
+get_fat                                           obj\Debug\lib\fatfs\ff.o
+init                                              obj\Debug\main.o
+initialise_header                                 obj\Debug\wave.o
+main                                              obj\Debug\main.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+newPage                                           obj\Debug\main.o
+pEnd                                              obj\Debug\buffer.o
+pHead                                             obj\Debug\buffer.o
+pPage0                                            obj\Debug\buffer.o
+pPage1                                            obj\Debug\buffer.o
+pTail                                             obj\Debug\buffer.o
+pageCount                                         obj\Debug\main.o
+pageEmpty                                         obj\Debug\main.o
+pageFull                                          obj\Debug\main.o
+pb0                                               obj\Debug\main.o
+pb1                                               obj\Debug\main.o
+pb2                                               obj\Debug\main.o
+pll_init                                          obj\Debug\main.o
+printf                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+                                                  obj\Debug\wave.o
+put_fat                                           obj\Debug\lib\fatfs\ff.o
+puts                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(puts.o)
+                                                  obj\Debug\main.o
+pwm_init                                          obj\Debug\main.o
+read_wave_header                                  obj\Debug\wave.o
+release                                           obj\Debug\main.o
+s                                                 obj\Debug\main.o
+s_final                                           obj\Debug\main.o
+sampleCount                                       obj\Debug\wave.o
+samples                                           obj\Debug\buffer.o
+serial_available                                  obj\Debug\serial.o
+serial_init                                       obj\Debug\serial.o
+                                                  obj\Debug\main.o
+serial_ready                                      obj\Debug\serial.o
+set_char_array                                    obj\Debug\wave.o
+stable                                            obj\Debug\main.o
+stop                                              obj\Debug\main.o
+strnlen                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+strnlen_P                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+timer_fatfs                                       obj\Debug\timer.o
+timer_init                                        obj\Debug\timer.o
+                                                  obj\Debug\main.o
+timer_led                                         obj\Debug\timer.o
+usb_configured                                    obj\Debug\lib\usb_serial\usb_serial.o
+                                                  obj\Debug\serial.o
+usb_init                                          obj\Debug\lib\usb_serial\usb_serial.o
+                                                  obj\Debug\serial.o
+usb_serial_available                              obj\Debug\lib\usb_serial\usb_serial.o
+                                                  obj\Debug\serial.o
+usb_serial_flush_input                            obj\Debug\lib\usb_serial\usb_serial.o
+usb_serial_flush_output                           obj\Debug\lib\usb_serial\usb_serial.o
+usb_serial_get_baud                               obj\Debug\lib\usb_serial\usb_serial.o
+usb_serial_get_control                            obj\Debug\lib\usb_serial\usb_serial.o
+usb_serial_get_numbits                            obj\Debug\lib\usb_serial\usb_serial.o
+usb_serial_get_paritytype                         obj\Debug\lib\usb_serial\usb_serial.o
+usb_serial_get_stopbits                           obj\Debug\lib\usb_serial\usb_serial.o
+usb_serial_getchar                                obj\Debug\lib\usb_serial\usb_serial.o
+                                                  obj\Debug\serial.o
+usb_serial_putchar                                obj\Debug\lib\usb_serial\usb_serial.o
+                                                  obj\Debug\serial.o
+usb_serial_putchar_nowait                         obj\Debug\lib\usb_serial\usb_serial.o
+usb_serial_set_control                            obj\Debug\lib\usb_serial\usb_serial.o
+usb_serial_write                                  obj\Debug\lib\usb_serial\usb_serial.o
+vfprintf                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+waveHeader                                        obj\Debug\wave.o
+wave_close                                        obj\Debug\wave.o
+                                                  obj\Debug\main.o
+wave_create                                       obj\Debug\wave.o
+                                                  obj\Debug\main.o
+wave_init                                         obj\Debug\wave.o
+                                                  obj\Debug\main.o
+wave_open                                         obj\Debug\wave.o
+                                                  obj\Debug\main.o
+wave_read                                         obj\Debug\wave.o
+                                                  obj\Debug\main.o
+wave_write                                        obj\Debug\wave.o
+                                                  obj\Debug\main.o
+write_wave_header                                 obj\Debug\wave.o
